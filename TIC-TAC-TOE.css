@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    color: cyan;
+    font-size: larger;
+    font-size: 25PX;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+nav{
+    margin: 0px;
+}
+button{
+    text-align: center; 
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-size: larger;
+}
+button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.grid{
+justify-content: center;
+display: grid;
+grid-template-rows: repeat(3,125px);
+grid-template-columns: repeat(3,125px);
+padding-top: 12px;
+padding-bottom: 12px;
+grid-gap: 5px;
+}
+.bt{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 50px;
+}
+.bt1{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+    height: 100px;
+    width: 220px;
+}
+.bt:disabled{
+    background-color: white;
+    opacity: 1;
+    color: black;
+    cursor: not-allowed;
+}
+.bt2{
+    height: 50px;
+    width: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.bt2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.up{
+    padding-top: 8px;
+}
+.down{
+    padding-bottom: 0%;
+}
+#content{
+    color: cyan;
+}
+.imgbox{
+    height: 25px;
+width: 50px;
+transition: all 2s ease-in-out;
+/* transition: height 2s ease-in-out; */
+}
+.imgbox:hover{
+height: 50px;
+width: 100px;
+}
